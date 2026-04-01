@@ -2,7 +2,8 @@
 // Problem: Alien Dictionary
 // Approach: BFS (TopoSort)
 // Time Complexity: O(N * M)
-// Space Complexity: O(N * M)class Solution {
+// Space Complexity: O(N * M)
+class Solution {
     public List<Integer> toposort(ArrayList<ArrayList<Integer>> adj, int n, int[] present){
         
         int[] indegree = new int[26];
